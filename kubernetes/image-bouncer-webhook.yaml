@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: image-bouncer-webhook
-  name: image-bouncer-webhook
+  name: scanner
 spec:
   ports:
     - name: https
