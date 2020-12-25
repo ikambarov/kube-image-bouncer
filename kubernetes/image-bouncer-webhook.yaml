@@ -18,6 +18,9 @@ kind: Deployment
 metadata:
   name: image-bouncer-webhook
 spec:
+  selector:
+    matchLabels:
+      app: image-bouncer-webhook
   template:
     metadata:
       labels:
